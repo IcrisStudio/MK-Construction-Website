@@ -61,7 +61,8 @@
     },
     "scripts": {
         "dev": "vite",
-        "build": "npx vite build",
+        "build": "vite build",
+        "vercel-build": "vite build",
         "preview": "vite preview"
     }
   }
