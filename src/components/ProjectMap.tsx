@@ -354,7 +354,7 @@ export function ProjectMap() {
                   <div className="relative">
                     <div className={`w-4 h-4 rounded-full bg-gradient-to-br ${item.gradient} shadow-lg`} />
                     <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${item.gradient} blur-md opacity-50 group-hover:opacity-75 transition-opacity`} />
-                  </div>
+          </div>
                   <span className="text-sm font-semibold text-gray-700 group-hover:text-gray-900 transition-colors">
                     {item.icon} {item.status}
                   </span>
