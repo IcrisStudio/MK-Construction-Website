@@ -61,8 +61,8 @@
     },
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
-        "vercel-build": "vite build",
+        "build": "node vercel-build.mjs",
+        "vercel-build": "node vercel-build.mjs",
         "preview": "vite preview"
     }
   }
